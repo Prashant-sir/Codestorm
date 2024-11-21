@@ -1,0 +1,62 @@
+body{background-color: rgb(181, 191, 198);display: flex;flex-direction: column;min-height: 100vh;
+background-image: url("plastic_waste.jpg");
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-size: cover;
+justify-content: center;}
+
+header{
+    background-color:rgb(96, 170, 96,0.8);
+    color: black;
+    text-align: right;
+    padding: 10px;
+}
+
+nav ul{display: flex;justify-content: right;gap: 40px;}
+nav ul li{list-style:none;}
+nav ul li a{
+    text-decoration: none;
+    color:white;}
+
+main{
+    justify-content: center;
+    display: flex;
+    /*flex:0.5 cvers half of the page*/
+    flex-direction: column;
+    text-align: center;
+}
+
+section{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(236, 227, 227,0.9);
+    width:100%;
+    height:100%;
+}
+
+footer{
+    background-color:rgb(96, 170, 96,0.9);
+    color:white;
+    text-align: center;
+    font-size: cover;
+}
+
+.container {
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+}
+
+img {
+    width:400px;
+    height: 280px;
+}
+   
+.text {
+    font-size: 70px;
+    border: 4px double rgb(104, 149, 104);
+}
+
+
